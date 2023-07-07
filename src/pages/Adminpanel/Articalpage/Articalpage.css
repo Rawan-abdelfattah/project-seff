@@ -1,0 +1,40 @@
+/* .line-after {
+    position: relative;
+    }
+    
+    .line-after::after {
+    content: "";
+    width: 80px;
+    border-bottom: 1px solid var(--Primary-color);
+    position: absolute;
+    left: 0px;
+    bottom: -5px;
+    }
+    #search{
+        background:rgba(128, 128, 128, 0.438);
+        border: 1px solid  rgba(128, 128, 128, 0.438);
+        border-radius: 50px;
+        padding:7px 70px;
+    
+    }
+    #search::placeholder {
+        text-align: center;
+        color: white;
+    }
+    .search-container {
+        position: relative;
+        display: inline-block;
+        
+      }
+    
+      .search-icon {
+        position: absolute;
+        top:50%;
+        right: 20px;
+        transform: translateY(-50%);
+        
+      }
+    .sidebar-header{
+        background-color: rgba(0, 0, 0, 0.262) !important;
+    
+    } */

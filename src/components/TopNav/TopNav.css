@@ -1,0 +1,9 @@
+.top-nav{
+  background-color:var(--top-bg);
+}
+.top-nav .top-nav-link{
+    transition: var(--transition-1);
+}
+.top-nav .top-nav-link:hover{
+    color: var(--Primary) !important;
+}

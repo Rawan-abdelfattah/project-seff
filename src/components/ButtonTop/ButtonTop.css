@@ -1,0 +1,27 @@
+.button-top{
+    position: fixed;
+    z-index: 10;
+    top: 82vh;
+    right: 40px;
+    width:40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid var(--secondary);  
+    transition: var(--transition-1); 
+    backdrop-filter: blur(10px);
+    display: none;
+}
+.button-top:hover{
+    background-color:var(--secondary);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+@media (max-width:768px) {
+    .button-top{
+      top: 86vh;
+      right: 15px;
+    }
+}
+

@@ -1,0 +1,15 @@
+.card{background-color: rgba(36, 36, 36, 0.3) !important;
+    margin-top: 70px !important;
+  color: white !important;
+  width: 55rem!important;
+  height: 250px;
+  margin: auto;
+  
+  }
+  .card-text{font-size: 12px;line-height: 30px!important;
+  width: 40rem!important;}
+  .btn-borderd{background: transparent !important;
+      border-color:  var(--Primary) !important;
+      margin-left: 20px; }
+ .itlogo{width: 70px; height: 40px;}
+  /* p{font-size: 11px;} */
